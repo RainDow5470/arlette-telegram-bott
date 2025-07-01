@@ -1,4 +1,11 @@
 @font-face {
+  font-family: 'DRUZHOK';
+  src: url('DRUZHOK.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
   font-family: 'NeutralFace';
   src: url('NeutralFace-Bold.otf') format('opentype');
   font-weight: bold;
