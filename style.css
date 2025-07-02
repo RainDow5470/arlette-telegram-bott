@@ -1,11 +1,4 @@
 @font-face {
-  font-family: 'DRUZHOK';
-  src: url('DRUZHOK.otf') format('opentype');
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
   font-family: 'NeutralFace';
   src: url('NeutralFace-Bold.otf') format('opentype');
   font-weight: bold;
@@ -36,11 +29,17 @@ body {
 .container {
   background: rgba(0, 0, 0, 0.6);
   border-radius: 15px;
-  padding: 30px;
+  padding: 30px 24px; /* Измените этот отступ по желанию */
   max-width: 400px;
   width: 100%;
-  box-shadow: 0 0 15px rgba(0,0,0,0.5);
+  box-sizing: border-box;
 }
+
+/* Применяем отступы только для экрана 2 */
+#screen2 .container {
+  padding-right: 40px; /* Здесь задаем отступ справа */
+}
+
 
 h1, h2 {
   text-align: center;
